@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/kompleks-generator/static/js/runtime~main.3c87d322.js"
   },
   {
-    "revision": "b17acae0777a12fab9c8",
-    "url": "/kompleks-generator/static/js/main.a8ca4d1b.chunk.js"
+    "revision": "3e0b224b18c4e3e8faea",
+    "url": "/kompleks-generator/static/js/main.8ded1f61.chunk.js"
   },
   {
     "revision": "6080e74a6bc3b8d48b49",
     "url": "/kompleks-generator/static/js/2.8500544b.chunk.js"
   },
   {
-    "revision": "b17acae0777a12fab9c8",
+    "revision": "3e0b224b18c4e3e8faea",
     "url": "/kompleks-generator/static/css/main.ae780c05.chunk.css"
   },
   {
-    "revision": "876d19fcc865be5642bc02dcfb821706",
+    "revision": "7b28f90f5f2f56fcbebb6ee35f19b037",
     "url": "/kompleks-generator/index.html"
   }
 ];
