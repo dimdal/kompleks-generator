@@ -1,0 +1,32 @@
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card.komplekskort.face-down {
+  backface-visibility: hidden;
+  min-height: 400px;
+  color: #fff;
+  font-size: 150px;
+  background-color: #39cccc;
+}
+
+.card.komplekskort.face-up {
+  backface-visibility: hidden;
+  min-height: 400px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #39cccc;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+.card.komplekskort .large-margin {
+  padding-top: 100px;
+  margin: 70px;
+}
+
+.segment.basic.action_buttons {
+  margin-top: 10px;
+}
