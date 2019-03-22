@@ -1,13 +1,13 @@
 {
-  "main.css": "/dimdal/kompleks-generator/static/css/main.ae780c05.chunk.css",
-  "main.js": "/dimdal/kompleks-generator/static/js/main.a8ca4d1b.chunk.js",
-  "main.js.map": "/dimdal/kompleks-generator/static/js/main.a8ca4d1b.chunk.js.map",
-  "runtime~main.js": "/dimdal/kompleks-generator/static/js/runtime~main.3501fe80.js",
-  "runtime~main.js.map": "/dimdal/kompleks-generator/static/js/runtime~main.3501fe80.js.map",
-  "static/js/2.8500544b.chunk.js": "/dimdal/kompleks-generator/static/js/2.8500544b.chunk.js",
-  "static/js/2.8500544b.chunk.js.map": "/dimdal/kompleks-generator/static/js/2.8500544b.chunk.js.map",
-  "index.html": "/dimdal/kompleks-generator/index.html",
-  "precache-manifest.d58d3dd149a69db6cef4368588f96f45.js": "/dimdal/kompleks-generator/precache-manifest.d58d3dd149a69db6cef4368588f96f45.js",
-  "service-worker.js": "/dimdal/kompleks-generator/service-worker.js",
-  "static/css/main.ae780c05.chunk.css.map": "/dimdal/kompleks-generator/static/css/main.ae780c05.chunk.css.map"
+  "main.css": "/kompleks-generator/static/css/main.ae780c05.chunk.css",
+  "main.js": "/kompleks-generator/static/js/main.a8ca4d1b.chunk.js",
+  "main.js.map": "/kompleks-generator/static/js/main.a8ca4d1b.chunk.js.map",
+  "runtime~main.js": "/kompleks-generator/static/js/runtime~main.3c87d322.js",
+  "runtime~main.js.map": "/kompleks-generator/static/js/runtime~main.3c87d322.js.map",
+  "static/js/2.8500544b.chunk.js": "/kompleks-generator/static/js/2.8500544b.chunk.js",
+  "static/js/2.8500544b.chunk.js.map": "/kompleks-generator/static/js/2.8500544b.chunk.js.map",
+  "index.html": "/kompleks-generator/index.html",
+  "precache-manifest.d4928b25d83c8a5f18d85d5b28b8d391.js": "/kompleks-generator/precache-manifest.d4928b25d83c8a5f18d85d5b28b8d391.js",
+  "service-worker.js": "/kompleks-generator/service-worker.js",
+  "static/css/main.ae780c05.chunk.css.map": "/kompleks-generator/static/css/main.ae780c05.chunk.css.map"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dimdal/kompleks-generator/precache-manifest.d58d3dd149a69db6cef4368588f96f45.js"
+  "/kompleks-generator/precache-manifest.d4928b25d83c8a5f18d85d5b28b8d391.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dimdal/kompleks-generator/index.html", {
+workbox.routing.registerNavigationRoute("/kompleks-generator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
