@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/kompleks-generator/static/css/main.ae780c05.chunk.css"
   },
   {
-    "revision": "7b28f90f5f2f56fcbebb6ee35f19b037",
+    "revision": "390e2c2fa8ea35e3aea5891a2239dddb",
     "url": "/kompleks-generator/index.html"
   }
 ];
