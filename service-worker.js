@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kompleks-generator/precache-manifest.133c212ac7e40d32c998c00a6856e54c.js"
+  "/kompleks-generator/precache-manifest.c5fe59775381c66bfa217496a9386072.js"
 );
 
 workbox.clientsClaim();
