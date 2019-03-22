@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dimdal/kompleks-generator/precache-manifest.39502ea370e9698d633acf1136882806.js"
+  "/dimdal/kompleks-generator/precache-manifest.d58d3dd149a69db6cef4368588f96f45.js"
 );
 
 workbox.clientsClaim();

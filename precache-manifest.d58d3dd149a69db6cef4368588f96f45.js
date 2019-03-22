@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dimdal/kompleks-generator/static/css/main.ae780c05.chunk.css"
   },
   {
-    "revision": "1effccb879393dd917854e36edca3406",
+    "revision": "779992f780ed412b710f4b8415a16e42",
     "url": "/dimdal/kompleks-generator/index.html"
   }
 ];
