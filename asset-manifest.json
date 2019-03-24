@@ -1,13 +1,13 @@
 {
-  "main.css": "/kompleks-generator/static/css/main.ae780c05.chunk.css",
-  "main.js": "/kompleks-generator/static/js/main.8ded1f61.chunk.js",
-  "main.js.map": "/kompleks-generator/static/js/main.8ded1f61.chunk.js.map",
+  "main.css": "/kompleks-generator/static/css/main.16f7ad3f.chunk.css",
+  "main.js": "/kompleks-generator/static/js/main.61e7ba67.chunk.js",
+  "main.js.map": "/kompleks-generator/static/js/main.61e7ba67.chunk.js.map",
   "runtime~main.js": "/kompleks-generator/static/js/runtime~main.3c87d322.js",
   "runtime~main.js.map": "/kompleks-generator/static/js/runtime~main.3c87d322.js.map",
-  "static/js/2.8500544b.chunk.js": "/kompleks-generator/static/js/2.8500544b.chunk.js",
-  "static/js/2.8500544b.chunk.js.map": "/kompleks-generator/static/js/2.8500544b.chunk.js.map",
+  "static/js/2.950e817e.chunk.js": "/kompleks-generator/static/js/2.950e817e.chunk.js",
+  "static/js/2.950e817e.chunk.js.map": "/kompleks-generator/static/js/2.950e817e.chunk.js.map",
   "index.html": "/kompleks-generator/index.html",
-  "precache-manifest.c5fe59775381c66bfa217496a9386072.js": "/kompleks-generator/precache-manifest.c5fe59775381c66bfa217496a9386072.js",
+  "precache-manifest.3aea48afd00d8eab06dde0f8a452714a.js": "/kompleks-generator/precache-manifest.3aea48afd00d8eab06dde0f8a452714a.js",
   "service-worker.js": "/kompleks-generator/service-worker.js",
-  "static/css/main.ae780c05.chunk.css.map": "/kompleks-generator/static/css/main.ae780c05.chunk.css.map"
+  "static/css/main.16f7ad3f.chunk.css.map": "/kompleks-generator/static/css/main.16f7ad3f.chunk.css.map"
 }
