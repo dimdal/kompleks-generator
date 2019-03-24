@@ -12,10 +12,18 @@ const adjectivesNorwegian = [
   "trange",
   "brede",
   "flate",
-  "overproporsjonerte",
+  "tørre",
+  "asymmetriske",
+  "illeluktende",
+  "oppblåste",
+  "hengende",
+  "bittesmå",
+  "gigantiske",
+  "sprukne",
+  "firkantede",
+  "overdimensjonerte",
   "tynne",
   "rare",
-  "patetiske",
   "underernærte"
 ];
 
@@ -24,13 +32,22 @@ const bodypartsNorwegian = [
   "knær",
   "hårstrå",
   "negler",
-  "mage",
+  "ryggvirvler",
+  "kneskåler",
+  "akilleshæler",
+  "pupiller",
+  "lepper",
+  "fortenner",
+  "kjønnshår",
+  "magemuskler",
   "pupper",
   "øyne",
   "nesebor",
   "ribbein",
   "rumpeballer",
   "hæler",
+  "kinn",
+  "nesehår",
   "hår på armene",
   "hår i armhulen",
   "hår på leggene",
@@ -45,24 +62,40 @@ const bodypartsNorwegian = [
   "tær",
   "pekefingre",
   "langfingre",
+  "ringfingre",
   "lillefingre"
 ];
 
 class Card extends React.Component {
-  state = { isFaceUp: false };
-
-  flipCard() {
-    this.setState({ isFaceUp: !this.state.isFaceUp });
-  }
+  state = { isHidden: true, text: "?" };
 
   constructor(props) {
     super(props);
     this.onClick = this.onClick.bind(this);
   }
 
-  onClick(event) {
-    this.flipCard();
-    console.log("click");
+  onClick() {
+    const isAdj = this.props.adj;
+    const isHidden = this.state.isHidden;
+    const adjective = this.generateRandomAdjective();
+    const bodypart = this.generateRandomBodypart();
+    if (isHidden & isAdj) {
+      this.setState({
+        text: adjective,
+        isHidden: false
+      });
+      this.props.callback("adj", adjective, false);
+    }
+    if (isHidden & !isAdj) {
+      this.setState({
+        text: bodypart,
+        isHidden: false
+      });
+      this.props.callback("bp", bodypart, false);
+    }
+    if (!isHidden) {
+      this.setState({ isHidden: true, text: "?" });
+    }
   }
 
   generateRandomAdjective() {
@@ -79,21 +112,15 @@ class Card extends React.Component {
 
   renderContent() {
     return (
-      <div class="column">
+      <div className="column">
         <div
           className={`ui fluid card komplekskort ${
-            this.state.isFaceUp ? "face-up active" : "face-down"
+            this.state.isHidden ? "face-down active" : "face-up"
           }`}
           onClick={this.onClick}>
           <div className="flipper">
             <div className="large-margin">
-              <div class="center aligned header">
-                {this.state.isFaceUp & this.props.adj
-                  ? this.generateRandomAdjective()
-                  : this.state.isFaceUp & !this.props.adj
-                  ? this.generateRandomBodypart()
-                  : "?"}
-              </div>
+              <div className="center aligned header">{this.state.text}</div>
             </div>
           </div>
         </div>

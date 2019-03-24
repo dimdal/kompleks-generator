@@ -6,7 +6,7 @@
 
 .card.komplekskort.face-down {
   backface-visibility: hidden;
-  min-height: 400px;
+  min-height: 250px;
   color: #fff;
   font-size: 150px;
   background-color: #39cccc;
@@ -14,17 +14,30 @@
 
 .card.komplekskort.face-up {
   backface-visibility: hidden;
-  min-height: 400px;
+  min-height: 250px;
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
   background-color: #39cccc;
   /* for firefox 31 */
   transform: rotateY(0deg);
 }
 
 .card.komplekskort .large-margin {
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .card.komplekskort .large-margin {
+    padding-top: 30px;
+    margin: 10px;
+  }
+  .card.komplekskort.face-down {
+    min-height: 100px;
+    font-size: 60px;
+  }
+  .card.komplekskort.face-up {
+    min-height: 100px;
+  }
 }
 
 .segment.basic.action_buttons {

@@ -1,0 +1,9 @@
+.buttons.action_buttons {
+  margin-top: 20px;
+}
+div.ui.segment.center.aligned.top.attached > h1 {
+  text-transform: capitalize;
+}
+div.ui.segment.center.aligned.top.attached > h1 > div {
+  text-transform: none;
+}
